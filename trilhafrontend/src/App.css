@@ -1,0 +1,17 @@
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    rgba(229, 57, 57, 0.4) 10%,
+    rgba(229, 57, 57, 0.7) 60%,
+    rgba(229, 57, 57, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #e53939;
+}
+
+*{
+  scroll-padding-top: 3.9rem;
+  scroll-behavior: smooth;
+}
