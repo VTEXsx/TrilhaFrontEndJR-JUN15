@@ -1,6 +1,6 @@
 function Menu() {
   return (
-    <ul className="text-white flex items-center justify-center gap-7 font-bold">
+    <ul className="text-white flex items-center justify-center gap-7 font-bold font-condensed">
       <li>
         <a className="hover:text-red" href="#home">Home</a>
       </li>

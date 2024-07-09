@@ -1,4 +1,4 @@
-import Logo from "../../assets/logo.webp";
+import Logo from "../../assets/images/logo.webp";
 import Menu from "../Menu";
 import MenuMobile from "../MenuMobile";
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
         <img
           className="bg-black h-[130%] px-5 md:px-8 border-b-2 border-red self-start "
           src={Logo}
-          alt=""
+          alt="logo do código certo"
         />
         {larguraTela < 768 ? <MenuMobile /> : <Menu />}
       </div>

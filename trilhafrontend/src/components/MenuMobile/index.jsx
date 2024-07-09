@@ -23,7 +23,7 @@ function MenuMobile() {
             onClick={closeMenu}
             className="text-white text-5xl fixed right-3 top-2 hover:text-red"
           />
-          <ul className="h-4/5 mt-[20%] text-white flex flex-col items-center justify-around font-bold ">
+          <ul className="h-4/5 mt-[20%] text-white flex flex-col items-center justify-around font-bold font-condensed">
             <li>
               <a className="hover:text-red" href="#home">
                 Home
